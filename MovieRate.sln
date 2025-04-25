@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A979A3CA-993B-4FEC-81A6-D4EDB96770E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external-services", "external-services", "{2817EEAE-A85A-430C-AFE4-563060541952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRate.ExternalService.TMDB", "src\MovieRate.ExternalService.TMDB\MovieRate.ExternalService.TMDB.csproj", "{2D704555-0492-4082-A0BF-03FD9C84189E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRate.Api", "src\MovieRate.Api\MovieRate.Api.csproj", "{75593142-B71E-4FA3-97CD-DD3D83605DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRate.Application", "src\MovieRate.Application\MovieRate.Application.csproj", "{6CBA8225-45CB-4607-8810-348344F083FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRate.BackgroundServices", "src\MovieRate.BackgroundServices\MovieRate.BackgroundServices.csproj", "{2BC0E841-689A-4371-9081-DBDFEA64A735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRate.Domain", "src\MovieRate.Domain\MovieRate.Domain.csproj", "{F3D944F0-63C6-458D-9673-C717C4B9F0A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRate.Infra", "src\MovieRate.Infra\MovieRate.Infra.csproj", "{BB4D8566-8B4B-4519-8DF2-8EFE080F87C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A58A0D6D-7B96-4B04-BE30-34C53C4630C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D704555-0492-4082-A0BF-03FD9C84189E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D704555-0492-4082-A0BF-03FD9C84189E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D704555-0492-4082-A0BF-03FD9C84189E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D704555-0492-4082-A0BF-03FD9C84189E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75593142-B71E-4FA3-97CD-DD3D83605DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75593142-B71E-4FA3-97CD-DD3D83605DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75593142-B71E-4FA3-97CD-DD3D83605DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75593142-B71E-4FA3-97CD-DD3D83605DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBA8225-45CB-4607-8810-348344F083FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBA8225-45CB-4607-8810-348344F083FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBA8225-45CB-4607-8810-348344F083FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBA8225-45CB-4607-8810-348344F083FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC0E841-689A-4371-9081-DBDFEA64A735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC0E841-689A-4371-9081-DBDFEA64A735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC0E841-689A-4371-9081-DBDFEA64A735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC0E841-689A-4371-9081-DBDFEA64A735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D944F0-63C6-458D-9673-C717C4B9F0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D944F0-63C6-458D-9673-C717C4B9F0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D944F0-63C6-458D-9673-C717C4B9F0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D944F0-63C6-458D-9673-C717C4B9F0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4D8566-8B4B-4519-8DF2-8EFE080F87C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4D8566-8B4B-4519-8DF2-8EFE080F87C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4D8566-8B4B-4519-8DF2-8EFE080F87C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4D8566-8B4B-4519-8DF2-8EFE080F87C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D704555-0492-4082-A0BF-03FD9C84189E} = {2817EEAE-A85A-430C-AFE4-563060541952}
+		{75593142-B71E-4FA3-97CD-DD3D83605DDA} = {A979A3CA-993B-4FEC-81A6-D4EDB96770E3}
+		{6CBA8225-45CB-4607-8810-348344F083FC} = {A979A3CA-993B-4FEC-81A6-D4EDB96770E3}
+		{2BC0E841-689A-4371-9081-DBDFEA64A735} = {A979A3CA-993B-4FEC-81A6-D4EDB96770E3}
+		{F3D944F0-63C6-458D-9673-C717C4B9F0A5} = {A979A3CA-993B-4FEC-81A6-D4EDB96770E3}
+		{BB4D8566-8B4B-4519-8DF2-8EFE080F87C2} = {A979A3CA-993B-4FEC-81A6-D4EDB96770E3}
+	EndGlobalSection
+EndGlobal

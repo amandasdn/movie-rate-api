@@ -6,7 +6,7 @@ namespace MovieRate.Api.Extensions
     {
         public static void AddEndpoints(this IEndpointRouteBuilder app)
         {
-            app.MapWeatherForecastEndpoints();
+            app.MapMovieEndpoints();
         }
     }
 }
