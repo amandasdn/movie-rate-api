@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MovieRate.Domain\MovieRate.Domain.csproj" />
     <ProjectReference Include="..\MovieRate.ExternalService.TMDB\MovieRate.ExternalService.TMDB.csproj" />
   </ItemGroup>
 
